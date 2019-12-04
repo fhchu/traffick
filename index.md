@@ -4,5 +4,4 @@
  
 <script>
 document.getElementById("text").innerHTML = "Text added by JavaScript code";
-
-<button onclick="myFunction()">Click me</button> </script>
+</script>
