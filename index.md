@@ -32,6 +32,7 @@
         <select id='mjobselect' class="job">
             <option value=""></option>
             <option value="farm">Farm Worker</option>
+            <option value="farm2">Farm Worker, again</option>
         </select>
     </div>
 
@@ -112,8 +113,9 @@
                 story = "You're a man in mexico. You hear of a job in Florida picking tomatoes for $150 a day, so you agree to be smuggled across the border. In the end, you don't get any of that money; you're stuck in Florida working without pay for four months.";
                 source = "Source: https://www.amazon.com/Sex-Trafficking-Inside-Business-Slavery/dp/0231139616";
             }
-            else if(job == 'waitress'){
-                story = "You're a young woman in northern Vietnam."
+            else if(job == 'farm2'){
+                story = "You're a man in Thailand. You come to North Carolina to do farm work. In order to cover the $11,250 recruitment fee, you took out loans on your house for collatoral. You live in a poor motel with six or seven in a room; at one point, you're housed in a barn filled with insects and mice. After a few weeks, the work dries up, and you're not allowed to work on the fields or pay back your debt. You're told the police will arrest you if you leave the farm.";
+                source = "Source: https://www.triplepundit.com/story/2017/forced-labor-more-common-us-you-might-think/56461/";
             }
         }
     });
